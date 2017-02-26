@@ -140,7 +140,7 @@ void Grove_LED_Bar::toggleLed(unsigned char led)
 // 00000011 brighter
 // ........
 // 11111111 brightest
-void Grove_LED_Bar::setData(unsigned char __state[])
+void Grove_LED_Bar::setData(unsigned char& __state[])
 {
 
   sendData(GLB_CMDMODE);
